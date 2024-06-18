@@ -7,7 +7,7 @@ import { MembersList } from './components/MembersList/MembersList';
 
 
 function App() {
-  const server_url = "http://localhost:3000";
+  const server_url = "https://walrus-app-zbubs.ondigitalocean.app";
   axios.defaults.baseURL = server_url;
   axios.defaults.withCredentials = true;
 
